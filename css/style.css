@@ -4,14 +4,24 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+    color: #7F8187;
 }   
+
+h1, h2, h3 {
+    color: white;
+}
+
+/*Main*/
 
 aside {
     position: fixed;
     top: 0;
     left: 0;
     background-color: black;
-    color: #747475;
 }
