@@ -24,24 +24,52 @@ h1, h2, h3 {
     border: 1px solid red;
 }
 
+.debug-blu {
+    background-color: rgba(0, 0, 255, 0.50);
+    border: 1px solid blue;
+}
+
 /*Header*/
 header {
     height: 75px;
     background-color: #090B12;
     position: fixed;
     top: 0;
-    left: 0;
     right: 0;
-    z-index: 3;
+    width: calc(100% - 200px);
+    z-index: 2;
 }
 
 
 /*Main*/
 aside {
+    height: calc(100% - 100px);
     position: fixed;
-    top: 0;
     left: 0;
+    top: 0;
+    z-index: 2;
     background-color: black;
+    width: 200px;
+    /* height: 100%; */
+}
+
+.album {
+    background-color: #151921;
+    height: calc(100% - 175px);
+    width: calc(100% - 200px);
+    position: fixed;
+    right: 0;
+    top: 75px;
+    bottom: 0;
 }
 
 /*Footer*/
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    height: 100px;
+    background-color: #282829;
+}
