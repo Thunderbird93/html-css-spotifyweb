@@ -29,6 +29,11 @@ h1, h2, h3 {
     border: 1px solid blue;
 }
 
+.debug-green {
+    background-color: greenyellow;
+    border: 1px solid white;
+}
+
 /*Header*/
 header {
     height: 75px;
@@ -54,7 +59,7 @@ aside {
 }
 
 .album {
-    background-color: #151921;
+    /*background-color: #151921; */
     height: calc(100% - 175px);
     width: calc(100% - 200px);
     position: fixed;
