@@ -34,6 +34,10 @@ h1, h2, h3 {
     border: 1px solid white;
 }
 
+.d-flex {
+    display: flex;
+}
+
 /*Header*/
 header {
     height: 90px;
@@ -65,11 +69,14 @@ aside {
     position: fixed;
     right: 0;
     top: 90px;
+    z-index: 1;
     bottom: 0;
 }
 
 .album {
-    height: 100px;
+    aspect-ratio: 1 / 1;
+    padding: 1px;
+
 }
 
 /*Footer*/
