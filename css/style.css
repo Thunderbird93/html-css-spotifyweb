@@ -36,12 +36,12 @@ h1, h2, h3 {
 
 /*Header*/
 header {
-    height: 75px;
+    height: 90px;
     background-color: #090B12;
     position: fixed;
     top: 0;
     right: 0;
-    width: calc(100% - 200px);
+    width: calc(100% - 250px);
     z-index: 2;
 }
 
@@ -54,18 +54,22 @@ aside {
     top: 0;
     z-index: 2;
     background-color: black;
-    width: 200px;
+    width: 250px;
     /* height: 100%; */
 }
 
-.album {
+.musica {
     /*background-color: #151921; */
-    height: calc(100% - 175px);
-    width: calc(100% - 200px);
+    height: calc(100% - 190px);
+    width: calc(100% - 250px);
     position: fixed;
     right: 0;
-    top: 75px;
+    top: 90px;
     bottom: 0;
+}
+
+.album {
+    height: 100px;
 }
 
 /*Footer*/
