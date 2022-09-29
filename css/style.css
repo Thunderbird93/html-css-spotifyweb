@@ -69,17 +69,25 @@ main aside {
     flex-shrink: 0;
 }
 
-main .card img {
-    width: 300px;
+
+main .card {
+    max-width: 300px;
 }
 
+main .row {
+    column-count: 6;
+}
+
+main .musica {
+    margin: 10px;
+}
 
 main .musica .gallery .row .card {
     display: flex;
     flex-direction: column;
 }
 
-main .card img, main .card h2, main .card p {
+main .card div {
     display: flex;
     justify-content: center;
 }
