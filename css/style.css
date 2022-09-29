@@ -34,6 +34,16 @@ header {
 }
 
 /*Main*/
+main {
+    height: calc(100vh - 90px);
+}
+
+main aside {
+    width: 230px;
+    height:calc(100vh - 90px);
+    padding-top: 90px;
+    background-color: black;
+}
 
 /*Footer*/
 footer {
