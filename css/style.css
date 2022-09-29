@@ -21,6 +21,14 @@ h1, h2, h3 {
     color: white;
 }
 
+h2 {
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
 /*Utilities*/
 .debug {
     background-color: rgba(255, 0, 0, 0.5);
@@ -63,34 +71,6 @@ main aside {
     height:calc(100vh - 90px);
     background-color: black;
     flex-shrink: 0;
-}
-
-
-main .card {
-    max-width: 300px;
-}
-
-main .row {
-    column-count: 6;
-}
-
-main .musica {
-    margin: 10px;
-}
-
-main .musica .gallery .row .card {
-    display: flex;
-    flex-direction: column;
-}
-
-main .card div {
-    display: flex;
-    justify-content: center;
-}
-
-/*Debug*/
-.card {
-    border: 1px solid red;
 }
 
 
