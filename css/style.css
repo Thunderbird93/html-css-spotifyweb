@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 img {
     width: 100%;
 }
@@ -17,10 +21,18 @@ h1, h2, h3 {
     color: white;
 }
 
+body {
+    font-family: ;
+}
+
 /*Utilities*/
 .debug {
     background-color: rgba(255, 0, 0, 0.5);
     border: 1px solid red;
+}
+
+.d-flex {
+    display: flex;
 }
 
 /*Header*/
@@ -33,17 +45,50 @@ header {
     right: 0;
 }
 
+header section {
+    justify-content: space-between;
+}
+
+header section .logo {
+    width: 230px;
+    height: 90px;
+    background-color: black;
+}
+
 /*Main*/
 main {
     height: calc(100vh - 90px);
+    padding-top: 90px;
+    background-color: #151921;
 }
 
 main aside {
     width: 230px;
     height:calc(100vh - 90px);
-    padding-top: 90px;
     background-color: black;
+    flex-shrink: 0;
 }
+
+main .card img {
+    width: 300px;
+}
+
+
+main .musica .gallery .row .card {
+    display: flex;
+    flex-direction: column;
+}
+
+main .card img, main .card h2, main .card p {
+    display: flex;
+    justify-content: center;
+}
+
+/*Debug*/
+.card {
+    border: 1px solid red;
+}
+
 
 /*Footer*/
 footer {
