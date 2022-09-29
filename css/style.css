@@ -32,3 +32,11 @@ header {
     top: 0;
     right: 0;
 }
+
+/*Main*/
+
+/*Footer*/
+footer {
+    height: 90px;
+    background-color: #282829;
+}
