@@ -16,3 +16,19 @@ body {
 h1, h2, h3 {
     color: white;
 }
+
+/*Utilities*/
+.debug {
+    background-color: rgba(255, 0, 0, 0.5);
+    border: 1px solid red;
+}
+
+/*Header*/
+header {
+    height: 90px;
+    background-color: #090B11;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
