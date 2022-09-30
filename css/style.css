@@ -54,14 +54,30 @@ header section .logo {
 
 /*Main*/
 main {
-    height: calc(100vh - 90px);
-    padding-top: 90px;
     background-color: #151921;
+    padding-top: 90px;
+}
+
+main .container {
+    padding: 5px;
+    height: 100vh;
+    height: calc(100vh - 180px);
+    overflow-y: auto;
+
+}
+
+main .container-nav {
+    width: 100%;
+    justify-content: center;
+}
+
+main .container-nav nav ul li {
+    margin: 20px 10px;
 }
 
 main aside {
     width: 230px;
-    height:calc(100vh - 180px);
+   /* height:calc(100vh - 180px); */
     background-color: black;
     flex-shrink: 0;
 }
@@ -70,11 +86,20 @@ main .block {
     margin: 10px;
 }
 
-main .card {
+main .block h2 {
+    margin: 15px;
+}
+
+main .col {
+}
+
+main .col .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 15px;
+    width: calc(100vw / 8);
 }
 
 
