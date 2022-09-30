@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-}
 
 img {
     width: 100%;
@@ -17,12 +14,8 @@ body {
     color: #7F8187;
 }   
 
-h1, h2, h3 {
+h2, h3 {
     color: white;
-}
-
-h2 {
-    font-size: 20px;
 }
 
 li {
@@ -68,9 +61,20 @@ main {
 
 main aside {
     width: 230px;
-    height:calc(100vh - 90px);
+    height:calc(100vh - 180px);
     background-color: black;
     flex-shrink: 0;
+}
+
+main .block {
+    margin: 10px;
+}
+
+main .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
