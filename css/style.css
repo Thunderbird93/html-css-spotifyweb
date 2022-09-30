@@ -32,6 +32,11 @@ li {
     display: flex;
 }
 
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
 /*Header*/
 header {
     height: 90px;
@@ -44,6 +49,7 @@ header {
 
 header section {
     justify-content: space-between;
+    align-items: center;
 }
 
 header section .logo {
@@ -52,10 +58,27 @@ header section .logo {
     background-color: black;
 }
 
+header section .logo img {
+    height: 50px;
+}
+
+header .cta {
+    height: 45px;
+    width: 300px;
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 5px;
+}
+
 /*Main*/
 main {
     background-color: #151921;
     padding-top: 90px;
+    width: 100%;
+}
+
+main h2 {
+    font-weight: bolder;
 }
 
 main .container {
@@ -90,16 +113,18 @@ main .block h2 {
     margin: 15px;
 }
 
-main .col {
-}
-
 main .col .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 15px;
+    height: 100%;
     width: calc(100vw / 8);
+}
+
+main .card div, main .card h3, main .card p{
+    margin-bottom: 15px;
 }
 
 
