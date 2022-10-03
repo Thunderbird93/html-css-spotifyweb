@@ -25,7 +25,7 @@ li {
 /*Utilities*/
 .debug {
     background-color: rgba(255, 0, 0, 0.5);
-    border: 1px solid red;
+    border: 1px solid blue;
 }
 
 .d-flex {
@@ -100,9 +100,56 @@ main .container-nav nav ul li {
 
 main aside {
     width: 230px;
-   /* height:calc(100vh - 180px); */
     background-color: black;
     flex-shrink: 0;
+}
+
+main aside i {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+main aside .aside-top {
+    height: 120px;
+    width: 230px;
+}
+
+main aside .aside-middle-up {
+    height: 80px;
+    width: 230px;
+}
+
+main aside .aside-middle-up i {
+    font-size: 45px;
+}
+
+main aside .aside-middle {
+    height: calc(100vh - 460px);
+    width: 230px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+main aside .aside-middle p {
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+main aside .aside-bottom {
+    height: 80px;
+    width: 230px;
+}
+
+main aside .aside-top, .aside-middle-up, .aside-bottom {
+    padding: 5px;
+}
+
+main aside .aside-top div, .aside-middle-up div, .aside-bottom div{
+    display: flex;
+    align-items: center;
 }
 
 main .block {
